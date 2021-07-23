@@ -1,0 +1,56 @@
+*,
+::after,
+::before {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+.body {
+  height: 100vh;
+  position: relative;
+}
+.lorem-header {
+  padding: 30px 0px;
+  text-align: center;
+}
+.lorem-header h1 {
+  padding-bottom: 0.5rem;
+}
+input[type="number"] {
+  padding: 4px 4px;
+  width: auto;
+  border-radius: 0.3rem;
+  border-width: thin;
+}
+button[type="submit"] {
+  padding: 5px 12px;
+  color: #fff;
+  background-color: royalblue;
+  border: none;
+  border-radius: 0.3rem;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-style: italic;
+  letter-spacing: 0.1rem;
+  transition: all 0.5s ease;
+  cursor: pointer;
+}
+button[type="submit"]:hover {
+  background-color: teal;
+}
+.lorem-text {
+  text-align: center;
+  width: 90%;
+  display: block;
+  margin: 0 auto;
+}
+.lorem-text p {
+  padding: 15px 0px;
+}
+.lorem-text p:nth-child(odd) {
+  color: brown;
+  font-weight: bold;
+}
+.lorem-text p:nth-child(even) {
+  color: #000;
+  font-style: italic;
+}
